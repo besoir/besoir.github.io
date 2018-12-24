@@ -1,1 +1,4 @@
-var obj = JSON.parse(pltable.json)
+$.getJSON(url, 
+	function(data) {
+		console.log(data);
+	})
